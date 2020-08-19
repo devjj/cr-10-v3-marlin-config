@@ -80,7 +80,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "fran6p, CR10-V2)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "FiZi, CR10-V3, based on fran6p CR10-V2 examples" // Who made the changes.
 #define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
