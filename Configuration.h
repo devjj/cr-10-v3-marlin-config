@@ -1275,7 +1275,7 @@
  * this option to have G28 restore the prior leveling state.
  */
 #if ENABLED(CR10V2_BLTOUCH)
-  #define RESTORE_LEVELING_AFTER_G28
+  //#define RESTORE_LEVELING_AFTER_G28
 #endif
 
 /**
