@@ -17,7 +17,7 @@ Post firmware flash I recommend running the following GCode:
 ```
 M502; Factory reset your printer
 M500; Save settings
-M851 Z-2.350; Set Z Probe Offset
+M851 Z-2.370; Set Z Probe Offset
 M500; Save settings
 M501; Load settings
 ```
