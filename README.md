@@ -12,7 +12,7 @@ The firmware has X and Y offsets pre-configured in it for the BLTouch based on t
 
 I did not configure the Z offset in firmware since that might be unique per printer.
 
-Pre-compiled firmware can be found in the [Compiled Firmware](https://git.pickysysadmin.ca/FiZi/cr-10-v3-marlin-config/-/tree/master/Compiled Firmwares) folder or on the [Releases](https://git.pickysysadmin.ca/FiZi/cr-10-v3-marlin-config/-/releases) page
+Pre-compiled firmware can be found in the [Compiled Firmware](https://git.pickysysadmin.ca/FiZi/cr-10-v3-marlin-config/-/tree/master/Compiled%20Firmwares/) folder or on the [Releases](https://git.pickysysadmin.ca/FiZi/cr-10-v3-marlin-config/-/releases/) page
 
 Post firmware flash I recommend running the following GCode:
 
