@@ -355,11 +355,10 @@
   #endif
 #endif
 
-// @section temperature
-
 //===========================================================================
 //============================= Thermal Settings ============================
 //===========================================================================
+// @section temperature
 
 /**
  * --NORMAL IS 4.7kohm PULLUP!-- 1kohm pullup can be used on hotend sensor, using correct resistor and table
@@ -2276,12 +2275,6 @@
 //#define DWIN_CREALITY_LCD
 
 //
-// MarlinUI for Creality's DWIN display (and others)
-//
-//#define DWIN_MARLINUI_PORTRAIT
-//#define DWIN_MARLINUI_LANDSCAPE
-
-//
 // ADS7843/XPT2046 ADC Touchscreen such as ILI9341 2.8
 //
 //#define TOUCH_SCREEN
@@ -2339,9 +2332,6 @@
 // If all hotends, bed temperature, and target temperature are under 54C
 // then the BLUE led is on. Otherwise the RED led is on. (1C hysteresis)
 //#define TEMP_STAT_LEDS
-
-// SkeinForge sends the wrong arc G-codes when using Arc Point as fillet procedure
-//#define SF_ARC_FIX
 
 // Support for the BariCUDA Paste Extruder
 //#define BARICUDA
@@ -2429,16 +2419,11 @@
 #endif
 
 /**
- * R/C SERVO support
- * Sponsored by TrinityLabs, Reworked by codexmas
- */
-
-/**
  * Number of servos
  *
  * For some servo-related options NUM_SERVOS will be set automatically.
  * Set this manually if there are extra servos needing manual control.
- * Leave undefined or set to 0 to entirely disable the servo subsystem.
+ * Set to 0 to turn off servo support.
  */
 //#define NUM_SERVOS 3 // Servo index starts with 0 for M280 command
 
@@ -2450,5 +2435,5 @@
 // Only power servos during movement, otherwise leave off to prevent jitter
 //#define DEACTIVATE_SERVOS_AFTER_MOVE
 
-// Allow servo angle to be edited and saved to EEPROM
+// Edit servo angles with M281 and save to EEPROM with M500
 //#define EDITABLE_SERVO_ANGLES
