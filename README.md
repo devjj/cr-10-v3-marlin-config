@@ -15,7 +15,7 @@ I did not configure the Z offset in firmware since that might be unique per prin
 # Downloads
 Pre-compiled firmware can be found in the [Compiled Firmware](https://git.pickysysadmin.ca/FiZi/cr-10-v3-marlin-config/-/tree/master/Compiled%20Firmwares/) folder or on the [Releases](https://git.pickysysadmin.ca/FiZi/cr-10-v3-marlin-config/-/releases/) page
 
-** New ** - There are now two builds of the firmware, one if you have a BLTouch and one if you do not.
+**New** - There are now two builds of the firmware, one if you have a BLTouch and one if you do not.
 
 # Extra info
 
